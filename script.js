@@ -5,6 +5,6 @@ cards.forEach((card)=>{
 		cards.forEach((c)=>{
 			c.classList.remove("active")
 		})
-		card.target.classList.add("active")
+		card.classList.add("active")
 	})
 })
