@@ -20,7 +20,7 @@ body{
 }
 .panel{
 	border-radius:50px;
-	position:relative
+	position:relative;
 	background-position:center;
 	background-size:cover;
 	background-repeat:no-repeat;
@@ -39,7 +39,7 @@ body{
 	color:white;
 	opacity:0;
 }
-.active.img-text{
+.active.panel .img-text{
 	opacity:1;
 }
 

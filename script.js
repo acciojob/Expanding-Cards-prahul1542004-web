@@ -2,7 +2,7 @@
 const cards=document.querySelectorAll(".panel")
 cards.forEach((card)=>{
 	card.addEventListener("click",(e)=>{
-		card.forEach((c)=>{
+		cards.forEach((c)=>{
 			c.classList.remove("active")
 		})
 		card.target.classList.add("active")
