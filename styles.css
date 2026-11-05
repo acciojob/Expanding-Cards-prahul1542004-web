@@ -39,7 +39,7 @@ body{
 	color:white;
 	opacity:0;
 }
-.active.panel .img-text{
+.panel.active .img-text{
 	opacity:1;
 }
 
